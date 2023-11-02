@@ -1,0 +1,188 @@
+#mimg, #vimg {
+	width: calc((100% - 70%))
+}
+.SambuttonBlue, .SambuttonGreen, .SambuttonRed, .SambuttonWhite, .SambuttonYelow {
+	padding: 4px 6px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	transition-duration: .4s;
+	cursor: pointer
+}
+.SambuttonBlue:hover, .SambuttonGreen:hover, .SambuttonRed:hover, .SambuttonWhite:hover, .SambuttonYelow:hover {
+	box-shadow: 0 8px 10px 0 rgba(0, 0, 0, .24), 0 1px 1px 0 rgba(0, 0, 0, .19)
+}
+.SambuttonBlue {
+	background-color: #1777c0;
+	color: #fff;
+	border: 1px solid #1777c0;
+	border-radius: 6px
+}
+.SambuttonBlue:hover {
+	background-color: #fff;
+	border: 1px solid #1777c0;
+	color: #000
+}
+.SambuttonYelow {
+	background-color: gold;
+	color: #000;
+	border: 1px solid gold;
+	border-radius: 6px
+}
+.SambuttonYelow:hover {
+	background-color: #fff;
+	border: 1px solid gold;
+	color: #000
+}
+.SambuttonRed {
+	background-color: #d55c6a;
+	color: #fff;
+	border: 1px solid #d55c6a;
+	border-radius: 6px
+}
+.SambuttonRed:hover {
+	background-color: #fff;
+	border: 1px solid #d55c6a;
+	color: #000
+}
+.SambuttonGreen {
+	background-color: #b7dd7a;
+	color: #3e3737;
+	border: 1px solid #b7dd7a;
+	border-radius: 6px
+}
+.SambuttonGreen:hover {
+	background-color: #fff;
+	border: 1px solid #b7dd7a;
+	color: #000
+}
+.SambuttonWhite {
+	background-color: #FFF;
+	color: #000;
+	border: 1px solid #000;
+	border-radius: 6px
+}
+.SambuttonWhite:hover {
+	background-color: #C1C1C1;
+	border: 1px solid #000;
+	color: #000
+}
+#mission_right:before, #vision_left:before {
+	content: "";
+	background: #fff;
+	padding: 19.5px;
+	height: 15px
+}
+#mission_right, #vision_left {
+	background-color: #fff;
+	height: 40px;
+	line-height: 17px;
+	color: #fff;
+	margin: 1px auto;
+	top: calc((100% - 79%));
+	font-size: 12px;
+	position: absolute
+}
+#pmission, #pvision {
+	color: #FFF;
+	width: calc((100% - 33%));
+	height: 100%
+}
+#mission_right {
+	width: calc((100% - 17%));
+	left: calc((100% - 87%));
+	border-top: 1px solid #005780
+}
+#mission_right:before {
+	border-radius: 46px 0 0;
+	width: 25px;
+	position: absolute;
+	right: 100%;
+	top: -1px;
+	border-top: 1px solid #005780
+}
+#pmission {
+	margin-right: calc((100% - 70%))
+}
+#mimg {
+	max-width: 160px;
+	position: relative;
+	float: right
+}
+#vision_left {
+	width: calc((100% - 11%));
+	border-bottom: 1px solid #005780
+}
+#vision_left:before {
+	border-radius: 0 0 46px;
+	width: 20px;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	border-bottom: 1px solid #005780
+}
+.IBlu, .IBlu:hover {
+	background-color: #fff0
+}
+#pvision {
+	margin-left: calc((100% - 70%))
+}
+#vimg {
+	max-width: 160px;
+	position: relative;
+	float: left
+}
+.customI {
+	border: none;
+	font-size: small;
+	-webkit-transition-duration: .4s;
+	transition-duration: .4s;
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	color: #005881
+}
+.IBlu {
+	color: #204362
+}
+.IBlu:hover {
+	color: #99c8e5
+}
+img.userImage {
+    height: 35px;
+    width: 35px;
+    margin: 0px 0 0 0;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+  .t-Button--navBar .t-Button-badge {  background-color: unset!important;}
+  /********Badge***********/
+.badge {
+    position: relative!important;
+    display: inline-block!important;
+    padding: 0 5px!important;
+    font-size: 10px!important;
+    text-align: center!important;
+    background-color: #FF5722!important;
+    color: #fff!important;
+    border-radius: 10px!important;
+    line-height: 14px!important;
+    top: -9px!important;
+    left: 31px!important;
+}
+/*For Communication button in New request footer*/
+#CommBtn:before {
+width:0!important;height:0!important;    position: unset!important;
+}
+
+
+
+/////
+
+.t-Header-branding{
+    background:white !important;
+}

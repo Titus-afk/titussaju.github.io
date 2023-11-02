@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/scss/style.css" />
+    <title>Hello, world!</title>
+  </head>
+
+  <body>
+    <div class="login">
+      <div class="login__left">
+        <img src="assets/img/logo-alternate.svg" alt="" />
+      </div>
+      <div class="login__right">
+        <div class="login-card">
+          <h1>Login to <span class="text-primary">Tawajud</span></h1>
+          <p>Enter your login details below</p>
+          <form action="">
+            <div class="form-group">
+              <label for="">Username</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="form-group position-relative">
+              <label for="">Password</label>
+              <input type="password" class="form-control" />
+              <small class="mt-2 d-block"> <a href="#" data-bs-toggle="modal" data-bs-target="#forgotPassword">Forgot Password ? </a> </small>
+              <button type="button" class="btn password">
+                <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0)">
+                    <path d="M1 12C1 12 5 5 12 5C19 5 23 12 23 12C23 12 19 19 12 19C5 19 1 12 1 12Z" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z" stroke="#4F4F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path data-password="false" d="M22.4906 2L23.5864 3.26254L1.09581 22.783L0 21.5205L22.4906 2Z" fill="#4F4F4F"></path>
+                  </g>
+                  <defs>
+                    <clipPath id="clip0">
+                      <rect width="24" height="24" fill="white" transform="translate(24 24.1147) rotate(-180)"></rect>
+                    </clipPath>
+                  </defs>
+                </svg>
+              </button>
+            </div>
+            <input class="btn btn-primary mt-5" type="submit" value="Login" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Forgot Password Modal -->
+    <div class="modal fade" id="forgotPassword" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="feature-block">
+              <img src="assets/img/forgotPassword.svg" alt="" />
+              <h4>Forgot Password</h4>
+              <p>To Reset password, kindly enter your registered email below</p>
+            </div>
+            <form action="">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter your email address" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Reset Password</button>
+            <button type="button" class="btn" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+   <!-- Upgrade Subscription Modal -->
+    <div class="modal fade" id="upgrade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="feature-block">
+              <img src="assets/img/upgradeSubscription.svg" alt="" />
+              <h4>Upgrade Subscription</h4>
+              <p>Fill in your details below to send a request for upgrade</p>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Enter Email Address" />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Request Upgrade</button>
+            <button type="button" class="btn" data-bs-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="node_modules/datatables.net-select/js/dataTables.select.min.js"></script>
+    <script src="node_modules/daterangepicker/moment.min.js"></script>
+    <script src="node_modules/daterangepicker/daterangepicker.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
